@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lydia.seekbar.MainActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="||"
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal ="true"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="&gt;&gt;"
+        android:id="@+id/btnFor"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@id/btnPlay"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="&gt;&gt;"
+        android:id="@+id/btnBack"
+        android:layout_marginTop="150dp"
+        android:layout_toLeftOf="@id/btnPlay"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/seekbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        />
+</RelativeLayout>
